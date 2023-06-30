@@ -12,4 +12,4 @@ ruby bin/gilded_rose.rb [days]
 bundle exec rspec spec
 ```
 
-Coverage available at the (coverage)[coverage/] directory.
+Coverage available at the [coverage](coverage/) directory.
