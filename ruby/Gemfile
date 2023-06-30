@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+group :rubocop do
+  gem "rubocop", require: false
+  gem "rubocop-performance", require: false
+  gem "rubocop-minitest", require: false
+  gem "rubocop-shopify", require: false
+end
+
+group :test do
+  gem "rspec"
+  gem "simplecov", require: false
+end

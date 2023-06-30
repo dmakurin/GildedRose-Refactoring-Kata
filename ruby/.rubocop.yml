@@ -1,0 +1,26 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+require:
+  - rubocop-minitest
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.1
+  StyleGuideBaseURL: https://rubystyle.guide
+  NewCops: enable
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_first_argument
+
+Minitest/MultipleAssertions:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
